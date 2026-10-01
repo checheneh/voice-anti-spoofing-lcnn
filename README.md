@@ -5,6 +5,7 @@
 [![W&B Tracked](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=flat&logo=WeightsandBiases&logoColor=white)](https://wandb.ai/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
+Проект в рамках учебной практики (июнь 2026)
 Реализация легковесной сверточной нейросети (**LCNN**) с **Max-Feature-Map (MFM)** и угловой функцией потерь **A-Softmax (SphereFace)** для бинарной детекции синтезированной речи на датасете **ASVspoof 2019 Logical Access (LA)**.
 
 ---
