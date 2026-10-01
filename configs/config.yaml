@@ -1,0 +1,19 @@
+data:
+  train_dir: "data/ASVspoof2019_LA_train/flac"
+  train_protocol: "data/ASVspoof2019_LA_cm_protocols/ASVspoof2019.LA.cm.train.trn.txt"
+  eval_dir: "data/ASVspoof2019_LA_eval/flac"
+  eval_protocol: "data/ASVspoof2019_LA_cm_protocols/ASVspoof2019.LA.cm.eval.trl.txt"
+  max_frames: 600
+  num_workers: 4
+
+training:
+  epochs: 25
+  batch_size: 16
+  learning_rate: 0.01
+  momentum: 0.9
+  weight_decay: 0.0005
+  save_path: "checkpoints/best_model.pth"
+
+wandb:
+  project: "deep_learning_hw"
+  run_name: "LCNN_A-softmax"
